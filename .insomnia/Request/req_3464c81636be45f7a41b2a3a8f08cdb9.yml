@@ -1,0 +1,21 @@
+_id: req_3464c81636be45f7a41b2a3a8f08cdb9
+type: Request
+parentId: wrk_1a2cb27bb629451986b230dc2ea2cf9e
+modified: 1671104472911
+created: 1671104454274
+url: http://localhost:3000/alunos/5
+name: New Request
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671104454274
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

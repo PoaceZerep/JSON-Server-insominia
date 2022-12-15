@@ -1,0 +1,26 @@
+_id: req_a58451d1ff6e429484650442aa9188d3
+type: Request
+parentId: wrk_1a2cb27bb629451986b230dc2ea2cf9e
+modified: 1671104655995
+created: 1671047336566
+url: http://localhost:3000/alunos
+name: User
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f206450387eb4ac2a1cf064bf9741cfa
+authentication: {}
+metaSortKey: -1671047336566
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

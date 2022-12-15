@@ -1,0 +1,44 @@
+_id: req_f331ff5f70464eb29a61182b0d062305
+type: Request
+parentId: wrk_1a2cb27bb629451986b230dc2ea2cf9e
+modified: 1671104726847
+created: 1671101056875
+url: http://localhost:3000/alunos
+name: adicionar aluno
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+    {
+    	"id": 6,
+                "nome": "Felipe Cordeiro",
+                "serie": "2° ano",
+                "nota": 4.9,
+                "aprovado": false
+    	
+    },
+    	{
+    	"id": 7,
+                "nome": "Sandro Conrrado",
+                "serie": "3° ano",
+                "nota": 8.9,
+                "aprovado": true
+    	
+    }
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8ab796d86f36462ebe72a10aa07329d6
+authentication: {}
+metaSortKey: -1671101056875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

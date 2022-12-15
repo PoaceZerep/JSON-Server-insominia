@@ -1,0 +1,35 @@
+_id: req_dc72703374b54b81acf8c9ebcfbd4131
+type: Request
+parentId: wrk_1a2cb27bb629451986b230dc2ea2cf9e
+modified: 1671104728176
+created: 1671101388411
+url: http://localhost:3000/alunos/5
+name: Alterar cadastro
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    
+
+    	{
+    	          "id": 5,
+                "nome": "Renan Onofre",
+                "serie": "2° ano",
+                "nota": 7.2,
+                "aprovado": true
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671101388411
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
